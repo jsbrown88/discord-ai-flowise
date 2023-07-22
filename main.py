@@ -38,7 +38,9 @@ async def on_ready():
 @client.tree.command(name="flowise", description="Ask a question to Flowise")
 async def flowise(interaction: discord.Interaction, question: str):
   await interaction.response.defer()
+  print(question)
   output = query({"question": question})
+  print(output)
   await interaction.followup.send(output)
 
 
