@@ -22,9 +22,9 @@ Set env values:
 2.
    export URL="http:///api/v1/prediction/8f0c9a8"
   
-  export API_KEY="EFWszbuNT00D "
+   export API_KEY="EFWszbuNT00D "
 
-  export DISCORD_BOT_SECRET="MT"
+   export DISCORD_BOT_SECRET="MT"
   
 3. source ~/.bashrc
 
