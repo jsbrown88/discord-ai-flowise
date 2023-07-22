@@ -13,5 +13,10 @@ RUN pip install -r requirements.txt
 # 暴露端口（如果需要）
 EXPOSE 80
 
+# 设置环境变量
+ENV URL=""
+ENV API_KEY=""
+ENV DISCORD_BOT_SECRET=""
+
 # 运行应用程序
 CMD [ "python3", "main.py" ]
