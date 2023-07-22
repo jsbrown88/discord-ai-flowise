@@ -37,3 +37,12 @@ Further Reading
 If you are interested in creating your own Discord bot using flowise, you can check out my articles for more detailed information and guides:
 
 [Create your own Discord bot with flowise:](https://medium.com/aimonks/how-to-create-pdf-chat-discord-bot-without-coding-skills-215e6065aae6)
+
+
+
+docker build -t discordbot .
+
+
+docker run -d discordbot
+
+
