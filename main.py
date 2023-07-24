@@ -38,9 +38,7 @@ async def on_ready():
 @client.tree.command(name="ask", description="Ask a question to AbyssBot")
 async def ask(interaction: discord.Interaction, question: str):
   await interaction.response.defer()
-  print("Player:",question)
   output = query({"question": question})
-  print("Bot:",output)
   await interaction.followup.send(output)
 
 
